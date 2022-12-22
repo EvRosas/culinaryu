@@ -1,0 +1,160 @@
+h1{
+    font-family: sackersgothicstd-heavy;
+    src: url(../assets/types/sackersgothicstd-heavy.otf);
+    text-transform: uppercase;
+    text-align: center;
+    color: $w;
+    font-size: 4.5rem;
+}
+
+h2{
+    font-family: SackersGothicStd-Medium;
+    src: url(../assets/types/SackersGothicStd-Medium.otf);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    color: $nar;
+}
+
+h3{
+    font-family: $m;
+    font-weight:500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: $gr;
+    text-align: center;
+}
+
+h4{
+    font-family: sackersgothicstd-heavy;
+    src: url(../assets/types/sackersgothicstd-heavy.otf);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.6rem;
+    color: $purp;
+}
+
+h5{ 
+    font-family: SackersGothicStd-Light;
+    src: url(../assets/types/SackersGothicStd-Light.otf);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    color: $purp;
+    line-height: 2.5rem;
+}
+
+p{
+    font-family: $m;
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-align: center;
+    color: $gr;
+}
+
+a{
+    font-family: $m;
+    font-weight: 400;
+    font-size: 1rem;
+    color: $purp;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+header{
+    background-color: $gray;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    .login{
+        height: 42px;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul{
+        font-family: $m;
+        font-weight: 400;
+        font-size: 1.2rem;
+        text-align: center;
+        text-transform: uppercase;
+        list-style-type: none;
+        margin: auto 10rem;
+        padding: 0;
+    }
+    .menu li{
+        display: inline-block;
+        text-align: center;
+        padding: 0 2rem;
+    }
+    .menu li a{
+            text-decoration: none;
+            color: $gr;
+    }
+    .menu li a:hover{
+        color: $nar;
+        text-decoration: underline;
+        font-family: $m;
+        font-weight: 600;
+    }
+    
+    .menu li a:active{
+        color: $purp;
+    }
+}
+
+.logo{
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.wa{
+    height: 60px;
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+}
+
+.cta{
+    background-color: $purp;
+    width: 400px;
+    height: 50px;
+    padding: 12px 60px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: $w;
+    font-family: $m;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.cta:hover{
+    background-color: #f7931e;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #ffffff;
+}
+
+footer{
+    background-color: $gray;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 2rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconosredes{
+    height: 25px;
+    margin: 0.8rem 0.8rem;
+}

@@ -1,0 +1,62 @@
+.cursosSection1{
+    background-image: url(../assets/cursos/Banner_cursos.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cursosSection1h1{
+    color: $nar;
+    padding: 3rem;
+}
+
+.cursosSection1p{
+    font-size: 1.5rem;
+    color: $purp;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.cursosSection2{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+}
+
+.cursosSection2img{
+    width: 330px;
+}
+
+.cursosSection2div{
+    margin: 1rem;
+    flex-direction: column;
+}
+
+.cursosSection2art{
+    width: 300px;
+    margin: 0;
+    padding:1rem 0.5rem 0;
+}
+
+.cursosSection2tit{
+    font-family: $m;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    color:#5151b4;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.cursosSection2txt{
+    font-family: $m;
+    font-weight: 300;
+    font-size: 1rem;
+    color:#808080;
+    text-align: center;
+}

@@ -1,0 +1,137 @@
+
+
+body{
+    font-family: $m;
+    section{
+        margin: 0;
+        display: flex;
+    }
+}
+
+
+.section1{
+    background-image: url(../assets/home/home_banner.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section2{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+ }
+ 
+ .sec2Div{
+     display: inline-block;
+     padding: 0 2rem;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+ 
+ .sec2img{
+     width: 280px;
+     padding: 1rem 0;
+ }
+
+ .sec2h3{
+    text-decoration: none;
+}
+
+.sec2cta:hover {
+    text-decoration: underline;
+    color: $purp;
+}
+
+.section3{
+    background-image: url(../assets/home/home_banner2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.section3art{
+    width: 40%;
+    padding-right: 3rem;
+}
+
+.section4{
+    padding: 3rem 12rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-style: italic;
+    color: $purp; 
+}
+
+.section5{
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 1rem 1rem;
+}
+
+.section5img{
+    width: 250px;
+}
+
+.section5div{
+    display: inline-block;
+    padding: 0 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nombres {
+    font-family: $m;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: $nar;
+}
+
+.section6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 0.7fr;
+    grid-template-areas: 
+    "tit tit"
+    "a b";
+    align-items: center;
+    padding: 0 7rem 0 5rem;
+  }
+ 
+  .tit{
+     grid-area: tit;
+     padding-top: 2rem;
+  }
+ 
+  .a{
+     grid-area: a;
+  }
+ 
+ .b{
+     grid-area: b;
+ }
+ 
+ .aImg{
+     width: 70%;
+ }
+ 
+ .section6h3{
+     text-align: left;
+     padding: 1rem 0;
+ }

@@ -1,0 +1,157 @@
+.clubSection1{
+    background-image: url(../assets/club/Banner_ClubCulinario.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.clubSection1h1{
+    color: $nar;
+    padding: 3rem;
+}
+
+.clubSection1p{
+    font-size: 1.5rem;
+    color: $purp;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.clubSection2{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+ }
+
+.clubSection2img{
+   height: 450px;
+}
+
+.clubSection2art{
+    padding: 1rem 4rem;
+    line-height: 2rem;
+}
+
+ .clubSectionVideoImg{
+    width: 100%;
+ }
+
+ .clubSection3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.3fr 1fr;
+    grid-template-areas: 
+    "tit tit tit"
+    "a b c";
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.tit{
+    grid-area: tit;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+.a{
+    grid-area: a;
+}
+
+.b{
+    grid-area: b;
+}
+
+.c{
+    grid-area: c;
+}
+
+.clubSection3img{
+    width: 300px;
+    padding-bottom: 1rem;
+}
+
+.temas{
+    color: $purp;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+.clubSection4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: 1fr;
+    grid-template-areas: 
+    "club ima";
+    margin: 2rem;
+    align-items: center;
+}
+
+
+.club{
+    grid-area: club;
+    display: flex;
+    flex-direction: column;
+}
+
+.ima{
+    grid-area: ima;
+}
+
+.clubGridTit1{
+    font-family: SackersGothicStd-Light;
+    src: url(../assets/types/SackersGothicStd-Light.otf);
+    text-transform: uppercase;
+    color: $gr;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.7rem 0;
+}
+
+.clubGridTit2{
+    font-family: $m;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: $gr;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0.8rem 0;
+}
+
+.clubSection4div{
+    display: flex;
+    flex-direction: row;
+    margin: 1.5rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clubSection4divh3{
+    color: $nar;
+    text-decoration: none;
+    text-align: left;
+    margin: 0 0 0 2rem;
+    letter-spacing: 4px;
+    font-weight: 500;
+}
+
+.clubSection4divp{
+    text-align: left;
+    margin: 0 0 0 2rem;
+    line-height: 1.5rem;
+
+}
+
+.clubSection4ima{
+    width: 600px;
+    margin: auto;
+    padding: auto;
+}
+
+.clubSection4icon{
+    height: 60px;
+}

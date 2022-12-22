@@ -1,0 +1,59 @@
+.diplomadosSection1{
+    background-image: url(../assets/diplomados/Banner_Diplomados.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.diplomadosSection1 h1{
+    color:$nar;
+    padding-top: 6rem;
+    
+}
+
+.diplomadosSection1 p{
+    font-size: 1.5rem;
+    color: $purp;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.container{
+    margin: 2rem 0;
+}
+
+.containerIma{
+    height: 100px;
+    margin-top: 2.5rem;
+}
+
+.centrados{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.containerP{
+    width: 300px;
+    padding: 1rem 0;
+}
+
+.containerImaMaster{
+    width: 80%;
+}
+
+.centrarMaster{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.diplomadosSection2Ima{
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: sackersgothicstd-heavy;
+    src: url(../assets/types/sackersgothicstd-heavy.otf);
+}
+
+@font-face{
+    font-family: SackersGothicStd-Light;
+    src: url(../assets/types/SackersGothicStd-Light.otf);
+}
+
+@font-face{
+    font-family: SackersGothicStd-Medium;
+    src: url(../assets/types/SackersGothicStd-Medium.otf);
+}
+
+@import "variables";
+@import "general";
+@import "home";
+@import "club";
+@import "cursos";
+@import "diplomados";
+@import "media";

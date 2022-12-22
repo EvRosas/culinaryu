@@ -1,0 +1,849 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: sackersgothicstd-heavy;
+  src: url(../assets/types/sackersgothicstd-heavy.otf); }
+
+@font-face {
+  font-family: SackersGothicStd-Light;
+  src: url(../assets/types/SackersGothicStd-Light.otf); }
+
+@font-face {
+  font-family: SackersGothicStd-Medium;
+  src: url(../assets/types/SackersGothicStd-Medium.otf); }
+
+h1 {
+  font-family: sackersgothicstd-heavy;
+  src: url(../assets/types/sackersgothicstd-heavy.otf);
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  font-size: 4.5rem; }
+
+h2 {
+  font-family: SackersGothicStd-Medium;
+  src: url(../assets/types/SackersGothicStd-Medium.otf);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  color: #f7931e; }
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #808080;
+  text-align: center; }
+
+h4 {
+  font-family: sackersgothicstd-heavy;
+  src: url(../assets/types/sackersgothicstd-heavy.otf);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.6rem;
+  color: #5151b4; }
+
+h5 {
+  font-family: SackersGothicStd-Light;
+  src: url(../assets/types/SackersGothicStd-Light.otf);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #5151b4;
+  line-height: 2.5rem; }
+
+p {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #808080; }
+
+a {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1rem;
+  color: #5151b4;
+  text-align: center;
+  text-decoration: none; }
+
+header {
+  background-color: #efefef;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+  header .login {
+    height: 42px;
+    margin: 0;
+    padding: 0; }
+  header nav ul {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: auto 10rem;
+    padding: 0; }
+  header .menu li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 2rem; }
+  header .menu li a {
+    text-decoration: none;
+    color: #808080; }
+  header .menu li a:hover {
+    color: #f7931e;
+    text-decoration: underline;
+    font-family: "Montserrat";
+    font-weight: 600; }
+  header .menu li a:active {
+    color: #5151b4; }
+
+.logo {
+  height: 60px;
+  margin: 0;
+  padding: 0; }
+
+.wa {
+  height: 60px;
+  position: fixed;
+  bottom: 2rem;
+  right: 3rem; }
+
+.cta {
+  background-color: #5151b4;
+  width: 400px;
+  height: 50px;
+  padding: 12px 60px;
+  border-radius: 100px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-align: center; }
+
+.cta:hover {
+  background-color: #f7931e;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  color: #ffffff; }
+
+footer {
+  background-color: #efefef;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center; }
+
+.iconosredes {
+  height: 25px;
+  margin: 0.8rem 0.8rem; }
+
+body {
+  font-family: "Montserrat"; }
+  body section {
+    margin: 0;
+    display: flex; }
+
+.section1 {
+  background-image: url(../assets/home/home_banner.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.section2 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem; }
+
+.sec2Div {
+  display: inline-block;
+  padding: 0 2rem;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.sec2img {
+  width: 280px;
+  padding: 1rem 0; }
+
+.sec2h3 {
+  text-decoration: none; }
+
+.sec2cta:hover {
+  text-decoration: underline;
+  color: #5151b4; }
+
+.section3 {
+  background-image: url(../assets/home/home_banner2.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; }
+
+.section3art {
+  width: 40%;
+  padding-right: 3rem; }
+
+.section4 {
+  padding: 3rem 12rem;
+  flex-direction: column;
+  align-items: center; }
+
+.quote {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-style: italic;
+  color: #5151b4; }
+
+.section5 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem; }
+
+.section5img {
+  width: 250px; }
+
+.section5div {
+  display: inline-block;
+  padding: 0 3rem;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.nombres {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #f7931e; }
+
+.section6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.3fr 0.7fr;
+  grid-template-areas: "tit tit" "a b";
+  align-items: center;
+  padding: 0 7rem 0 5rem; }
+
+.tit {
+  grid-area: tit;
+  padding-top: 2rem; }
+
+.a {
+  grid-area: a; }
+
+.b {
+  grid-area: b; }
+
+.aImg {
+  width: 70%; }
+
+.section6h3 {
+  text-align: left;
+  padding: 1rem 0; }
+
+.clubSection1 {
+  background-image: url(../assets/club/Banner_ClubCulinario.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.clubSection1h1 {
+  color: #f7931e;
+  padding: 3rem; }
+
+.clubSection1p {
+  font-size: 1.5rem;
+  color: #5151b4;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.clubSection2 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0; }
+
+.clubSection2img {
+  height: 450px; }
+
+.clubSection2art {
+  padding: 1rem 4rem;
+  line-height: 2rem; }
+
+.clubSectionVideoImg {
+  width: 100%; }
+
+.clubSection3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 0.3fr 1fr;
+  grid-template-areas: "tit tit tit" "a b c";
+  align-items: center;
+  margin: 1rem 0; }
+
+.tit {
+  grid-area: tit;
+  margin: 0;
+  padding-bottom: 2rem; }
+
+.a {
+  grid-area: a; }
+
+.b {
+  grid-area: b; }
+
+.c {
+  grid-area: c; }
+
+.clubSection3img {
+  width: 300px;
+  padding-bottom: 1rem; }
+
+.temas {
+  color: #5151b4;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.8rem; }
+
+.clubSection4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr;
+  grid-template-areas: "club ima";
+  margin: 2rem;
+  align-items: center; }
+
+.club {
+  grid-area: club;
+  display: flex;
+  flex-direction: column; }
+
+.ima {
+  grid-area: ima; }
+
+.clubGridTit1 {
+  font-family: SackersGothicStd-Light;
+  src: url(../assets/types/SackersGothicStd-Light.otf);
+  text-transform: uppercase;
+  color: #808080;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.7rem 0; }
+
+.clubGridTit2 {
+  font-family: "Montserrat";
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #808080;
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.8rem 0; }
+
+.clubSection4div {
+  display: flex;
+  flex-direction: row;
+  margin: 1.5rem 2rem;
+  justify-content: space-between;
+  align-items: center; }
+
+.clubSection4divh3 {
+  color: #f7931e;
+  text-decoration: none;
+  text-align: left;
+  margin: 0 0 0 2rem;
+  letter-spacing: 4px;
+  font-weight: 500; }
+
+.clubSection4divp {
+  text-align: left;
+  margin: 0 0 0 2rem;
+  line-height: 1.5rem; }
+
+.clubSection4ima {
+  width: 600px;
+  margin: auto;
+  padding: auto; }
+
+.clubSection4icon {
+  height: 60px; }
+
+.cursosSection1 {
+  background-image: url(../assets/cursos/Banner_cursos.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.cursosSection1h1 {
+  color: #f7931e;
+  padding: 3rem; }
+
+.cursosSection1p {
+  font-size: 1.5rem;
+  color: #5151b4;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.cursosSection2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 3rem 0; }
+
+.cursosSection2img {
+  width: 330px; }
+
+.cursosSection2div {
+  margin: 1rem;
+  flex-direction: column; }
+
+.cursosSection2art {
+  width: 300px;
+  margin: 0;
+  padding: 1rem 0.5rem 0; }
+
+.cursosSection2tit {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #5151b4;
+  padding-bottom: 0.5rem;
+  text-align: center; }
+
+.cursosSection2txt {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1rem;
+  color: #808080;
+  text-align: center; }
+
+.diplomadosSection1 {
+  background-image: url(../assets/diplomados/Banner_Diplomados.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.diplomadosSection1 h1 {
+  color: #f7931e;
+  padding-top: 6rem; }
+
+.diplomadosSection1 p {
+  font-size: 1.5rem;
+  color: #5151b4;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+.container {
+  margin: 2rem 0; }
+
+.containerIma {
+  height: 100px;
+  margin-top: 2.5rem; }
+
+.centrados {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.containerP {
+  width: 300px;
+  padding: 1rem 0; }
+
+.containerImaMaster {
+  width: 80%; }
+
+.centrarMaster {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.diplomadosSection2Ima {
+  width: 100%; }
+
+@media only screen and (max-width: 480px) {
+  header {
+    background-color: #efefef;
+    margin: 0;
+    padding: 0rem;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    header .login {
+      height: 36px;
+      margin: 0px;
+      padding: 0; }
+    header nav ul {
+      font-family: "Montserrat";
+      font-weight: 400;
+      font-size: 6px;
+      text-align: center;
+      text-transform: uppercase;
+      list-style-type: none;
+      margin: 0;
+      padding: 0 1rem; }
+    header .menu li {
+      display: inline-block;
+      text-align: center;
+      padding: 0 0.4rem; }
+    header .menu li a {
+      text-decoration: none;
+      color: #808080;
+      font-size: 0.9rem; }
+    header .menu li a:active {
+      color: #f7931e;
+      text-decoration: underline;
+      font-family: "Montserrat";
+      font-weight: 600; }
+  .logo {
+    height: 55px;
+    margin: 0;
+    padding: 0; }
+  .wa {
+    height: 60px;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem; }
+  h1 {
+    font-family: sackersgothicstd-heavy;
+    src: url(../assets/types/sackersgothicstd-heavy.otf);
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2.5rem; }
+  h2 {
+    font-family: SackersGothicStd-Medium;
+    src: url(../assets/types/SackersGothicStd-Medium.otf);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #f7931e;
+    margin: 0;
+    padding-bottom: 0.5rem; }
+  h3 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #808080;
+    text-align: center;
+    margin: 0; }
+  h4 {
+    font-family: sackersgothicstd-heavy;
+    src: url(../assets/types/sackersgothicstd-heavy.otf);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    color: #5151b4; }
+  h5 {
+    font-family: SackersGothicStd-Light;
+    src: url(../assets/types/SackersGothicStd-Light.otf);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #5151b4;
+    line-height: 2.3rem; }
+  p {
+    font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+    color: #808080;
+    margin: 0; }
+  a {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1rem;
+    color: #5151b4;
+    text-align: center;
+    text-decoration: none; }
+  .nombres {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #f7931e;
+    padding-top: 0.5rem; }
+  .quote {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-style: italic;
+    color: #5151b4;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    padding-top: 1rem; }
+  .cta {
+    background-color: #5151b4;
+    width: 350px;
+    height: 60px;
+    padding: 15px 60px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center; }
+  .cta:active {
+    background-color: #f7931e;
+    font-family: "Montserrat";
+    font-weight: 600;
+    color: #ffffff; }
+  section {
+    margin: 0;
+    display: flex; }
+  .section1 {
+    background-image: url(../assets/home/home_banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .section2 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+    flex-wrap: wrap; }
+  .sec2Div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 1rem 0;
+    justify-content: center;
+    align-items: center; }
+  .sec2img {
+    width: 180px;
+    padding-bottom: 0.6rem; }
+  .sec2h3 {
+    text-decoration: none; }
+  .section3 {
+    background-image: url(../assets/home/home_banner2.jpg);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; }
+  .section3art {
+    width: 90%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0;
+    background-color: #ffffffbd;
+    text-align: center; }
+  .section4 {
+    padding: 1.5rem 1rem;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2rem; }
+  .section5 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+    flex-wrap: wrap; }
+  .section5img {
+    width: 200px; }
+  .section5div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 1rem 0;
+    justify-content: center;
+    align-items: center; }
+  .section6 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "tit" "b";
+    align-items: center;
+    padding: 0 1rem;
+    margin-bottom: 1.5rem; }
+  .tit {
+    grid-area: tit;
+    padding: 0;
+    margin: 0; }
+  .b {
+    grid-area: b;
+    align-items: center; }
+  .aImg {
+    display: none; }
+  .section6h3 {
+    text-align: center;
+    padding: 1.5rem 0; }
+  .clubSection1 {
+    background-image: url(../assets/club/Banner_ClubCulinario.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0; }
+  .clubSection1h1 {
+    color: #f7931e;
+    padding: 0 1rem;
+    margin: 0; }
+  .clubSection1p {
+    font-size: 0.8rem;
+    color: #5151b4;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 1rem 3rem; }
+  .clubSection2 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0 0 0; }
+  .clubSection2img {
+    display: none; }
+  .clubSection2art {
+    padding: 1rem; }
+  .clubSection2art p {
+    line-height: 1.4rem; }
+  .clubSection2art h5 {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 0 2rem; }
+  .clubSection2art br {
+    line-height: 0.5rem; }
+  .clubSection2art h2 {
+    padding: 0 2rem 1rem 2rem; }
+  .clubSectionVideoImg {
+    display: none; }
+  .clubSection3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0; }
+  .clubSection3 h2 {
+    padding-bottom: 1rem; }
+  .clubSection3 div {
+    padding: 1rem 0; }
+  .clubSection3img {
+    width: 200px;
+    padding-bottom: 0.3rem; }
+  .temas {
+    color: #5151b4;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.3rem; }
+  .clubSection4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: 1fr;
+    grid-template-areas: "club";
+    margin: 2rem;
+    align-items: center; }
+  .club {
+    grid-area: club;
+    display: flex;
+    flex-direction: column; }
+  .clubGridTit1 {
+    font-family: SackersGothicStd-Light;
+    src: url(../assets/types/SackersGothicStd-Light.otf);
+    text-transform: uppercase;
+    color: #808080;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0; }
+  .clubGridTit2 {
+    font-family: "Montserrat";
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #808080;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 0.8rem 0; }
+  .clubSection4div {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    justify-content: space-between;
+    align-items: center; }
+  .clubSection4divh3 {
+    color: #f7931e;
+    text-decoration: none;
+    text-align: left;
+    margin: 1rem;
+    letter-spacing: 4px;
+    font-weight: 500; }
+  .clubSection4divp {
+    text-align: left;
+    margin: 0 0 0 2rem;
+    line-height: 1.5rem; }
+  .clubSection4ima {
+    display: none; }
+  .clubSection4icon {
+    height: 60px; }
+  .cursosSection1 {
+    background-image: url(../assets/cursos/Banner_cursos.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 380px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0; }
+  .cursosSection1h1 {
+    color: #f7931e;
+    padding: 0 1rem;
+    margin: 0; }
+  .cursosSection1p {
+    font-size: 0.8rem;
+    color: #5151b4;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 2rem 3rem; } }
